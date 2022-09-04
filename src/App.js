@@ -1,12 +1,12 @@
 import "./App.css";
 const app = {
-  title: "React crash course",
+  title: "React Test crash course",
 };
 function App() {
   return (
     <div className="App">
       <div className="appContainer">
-        <h3>{app.title}</h3>
+        <h3 data-testId="title">{app.title}</h3>
       </div>
     </div>
   );
